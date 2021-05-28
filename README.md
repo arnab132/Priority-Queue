@@ -8,14 +8,21 @@ The PriorityQueue is based on the priority heap. The elements of the priority qu
 
 Few points on Priority Queue are as follows: 
 
-PriorityQueue doesn’t permit null.
-We can’t create PriorityQueue of Objects that are non-comparable
-PriorityQueue are unbound queues.
-The head of this queue is the least element with respect to the specified ordering. If multiple elements are tied for least value, the head is one of those elements — ties are broken arbitrarily.
-Since PriorityQueue is not thread-safe, so java provides PriorityBlockingQueue class that implements the BlockingQueue interface to use in java multithreading environment.
-The queue retrieval operations poll,  remove,  peek, and element access the element at the head of the queue.
-It provides O(log(n)) time for add and poll methods.
-It inherits methods from AbstractQueue, AbstractCollection, Collection and Object class.
+1.PriorityQueue doesn’t permit null.
+
+2.We can’t create PriorityQueue of Objects that are non-comparable
+
+3.PriorityQueue are unbound queues.
+
+4.The head of this queue is the least element with respect to the specified ordering. If multiple elements are tied for least value, the head is one of those elements — ties are broken arbitrarily.
+
+5.Since PriorityQueue is not thread-safe, so java provides PriorityBlockingQueue class that implements the BlockingQueue interface to use in java multithreading environment.
+
+6.The queue retrieval operations poll,  remove,  peek, and element access the element at the head of the queue.
+
+7.It provides O(log(n)) time for add and poll methods.
+
+8.It inherits methods from AbstractQueue, AbstractCollection, Collection and Object class.
 
 Operations on PriorityQueue:
 
