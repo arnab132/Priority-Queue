@@ -17,7 +17,8 @@ The queue retrieval operations poll,  remove,  peek, and element access the elem
 It provides O(log(n)) time for add and poll methods.
 It inherits methods from AbstractQueue, AbstractCollection, Collection and Object class.
 
-Operations on PriorityQueue
+Operations on PriorityQueue:
+
 Let’s see how to perform a few frequently used operations on the Priority Queue class.
 
 1. Adding Elements: In order to add an element in a priority queue, we can use the add() method. The insertion order is not retained in the PriorityQueue. The elements are stored based on the priority order which is ascending by default.
